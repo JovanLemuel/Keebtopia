@@ -17,7 +17,7 @@
     <header>
         @include('components.header')
     </header>
-    <div class="container">
+    <div>
         @yield('content')
     </div>
 
