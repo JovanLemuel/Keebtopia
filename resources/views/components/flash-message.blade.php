@@ -25,7 +25,7 @@
     </div>
 @endif
 
-{{-- custom for form --}}
+{{-- custom for contact --}}
 @if ($message = Session::get('successForm'))
     <div id="alert-border-3"
         class="flex p-4 mb-4 text-green-800 border-t-4 border-green-300 bg-green-50 dark:text-green-400 dark:bg-gray-800 dark:border-green-800"
@@ -36,9 +36,8 @@
                 clip-rule="evenodd"></path>
         </svg>
         <div class="ml-3 text-sm font-medium">
-            Thank you for contacting us! <a href="mailto:mealmingle@gmail.com"
-                class="font-semibold underline hover:no-underline">Sign up
-                here</a> for the latest news from us.
+            Thank you for contacting us! <a href="/catalog"
+                class="font-semibold underline hover:no-underline">Check here</a> to see some of our products.
         </div>
         <button type="button"
             class="ml-auto -mx-1.5 -my-1.5 bg-green-50 text-green-500 rounded-lg focus:ring-2 focus:ring-green-400 p-1.5 hover:bg-green-200 inline-flex h-8 w-8 dark:bg-gray-800 dark:text-green-400 dark:hover:bg-gray-700"
