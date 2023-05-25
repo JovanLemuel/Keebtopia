@@ -1,5 +1,5 @@
 @extends('layouts/mainlayout')
-@section('Keebtopia', 'Form')
+@section('Keebtopia', 'Contact')
 
 @section('content')
     <div class="text-center py-12 px-6">
@@ -50,32 +50,37 @@
             </div>
 
             <div>
-                <form action="{{ route('forms.store') }}" method="POST" name="contact" netlify>
+                <form action="{{ route('contacts.store') }}" method="POST" name="contact" netlify>
                     @csrf
                     <div>
                         <label for="" class="block text-base tracking-tight text-gray-600">Name</label>
-                        <input name="form_name" type="text" placeholder="Name" required
+                        <input name="contact_name" type="text" placeholder="Name" required
                             class="mt-2 w-full border-none text-sm p-4 bg-gray-100 text-gray-700" />
                     </div>
                     <div class="mt-6">
-                        <label for="" class="block text-base tracking-tight text-gray-600">Email address</label>
-                        <input name="form_email" type="email" placeholder="Email" required
+                        <label for="" class="block text-base tracking-tight text-gray-600">Email Address</label>
+                        <input name="contact_email" type="email" placeholder="Email" required
                             class="mt-2 w-full border-none text-sm p-4 bg-gray-100 text-gray-700" />
                     </div>
                     <div class="mt-6">
-                        <label for="" class="block text-base tracking-tight text-gray-600">Comment</label>
-                        <textarea name="form_message" placeholder="Your comment" required
+                        <label for="" class="block text-base tracking-tight text-gray-600">Message Title</label>
+                        <textarea name="contact_title" placeholder="Your message title" required
+                            class="mt-2 w-full border-none text-sm p-4 bg-gray-100 text-gray-700"></textarea>
+                    </div>
+                    <div class="mt-6">
+                        <label for="" class="block text-base tracking-tight text-gray-600">Message</label>
+                        <textarea name="contact_message" placeholder="Your message" required
                             class="mt-2 w-full border-none text-sm p-4 bg-gray-100 text-gray-700"></textarea>
                     </div>
                     <button type="submit"
-                        class="inline-block bg-orange hover:bg-amber-700 text-white uppercase text-sm tracking-widest font-heading px-8 py-4 mt-6">
+                        class="inline-block bg-black hover:bg-amber-700 text-white uppercase text-sm tracking-widest font-heading px-8 py-4 mt-6">
                         Send message
                     </button>
                 </form>
             </div>
         </div>
         <div class="mt-12 gap-12 max-w-4xl mx-auto">
-            @include('flash-message')
+            @include('components/flash-message')
         </div>
     </div>
 
