@@ -22,6 +22,18 @@ Route::get('/home', function () {
     return view('home');
 });
 
+Route::get('/catalog', function () {
+    return view('catalog');
+});
+
+Route::get('/commission', function () {
+    return view('commission');
+});
+
+Route::get('/shipping', function () {
+    return view('shipping');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

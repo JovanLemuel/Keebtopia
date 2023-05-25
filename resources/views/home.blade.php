@@ -3,34 +3,32 @@
 
 @section('content')
 
-    <h1>KeebTopia</h1>
-
     <div id="default-carousel" class="relative w-full" data-carousel="slide">
         <!-- Carousel wrapper -->
         <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
             <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="/docs/images/carousel/carousel-1.svg"
+                <img src="images/home-carousel/home-carousel-1.jpg" alt="Home Carousel 1"
                     class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="/docs/images/carousel/carousel-2.svg"
+                <img src="images/home-carousel/home-carousel-2.jpg" alt="Home Carousel 2"
                     class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
             <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="/docs/images/carousel/carousel-3.svg"
+                <img src="images/home-carousel/home-carousel-3.jpg" alt="Home Carousel 3"
                     class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
             <!-- Item 4 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="/docs/images/carousel/carousel-4.svg"
+                <img src="images/home-carousel/home-carousel-4.jpg" alt="Home Carousel 4"
                     class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
             <!-- Item 5 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="/docs/images/carousel/carousel-5.svg"
+                <img src="images/home-carousel/home-carousel-5.jpg" alt="Home Carousel 5"
                     class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
         </div>
