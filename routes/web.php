@@ -30,6 +30,10 @@ Route::get('/commission', function () {
     return view('commission');
 });
 
+Route::get('/contact', function () {
+    return view('contact');
+});
+
 Route::get('/shipping', function () {
     return view('shipping');
 });
