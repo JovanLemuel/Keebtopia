@@ -156,145 +156,69 @@
             </div>
         </div>
     </div>
-
-    <!-- Row 2 -->
-    <div class="max-w-2xl mx-auto py-4 px-4 sm:py-24 sm:px-6 lg:max-w-7xl md:p-0 lg:px-8">
-        <div class="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-4 md:gap-y-0 lg:gap-x-8">
-
-            <!-- Product Card 1 -->
-            <div class="group relative">
-                <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
-                    <img src="images/home-carousel/home-carousel-1.jpg" alt="Product Image"
-                        class="w-full h-full object-center object-cover">
-                </div>
-                <h3 class="mt-4 text-sm text-gray-700">
-                    <a href="#">
-                        <span class="absolute inset-0"></span>
-                        Mechanical Keyboard
-                    </a>
-                </h3>
-                <p class="mt-1 text-sm text-gray-500">Keyboard</p>
-                <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
-            </div>
-
-            <!-- Product Card 2 -->
-            <div class="group relative">
-                <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
-                    <img src="images/home-carousel/home-carousel-1.jpg" alt="Product Image"
-                        class="w-full h-full object-center object-cover">
-                </div>
-                <h3 class="mt-4 text-sm text-gray-700">
-                    <a href="#">
-                        <span class="absolute inset-0"></span>
-                        Mechanical Keyboard
-                    </a>
-                </h3>
-                <p class="mt-1 text-sm text-gray-500">Keyboard</p>
-                <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
-            </div>
-
-            <!-- Product Card 3 -->
-            <div class="group relative">
-                <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
-                    <img src="images/home-carousel/home-carousel-1.jpg" alt="Product Image"
-                        class="w-full h-full object-center object-cover">
-                </div>
-                <h3 class="mt-4 text-sm text-gray-700">
-                    <a href="#">
-                        <span class="absolute inset-0"></span>
-                        Mechanical Keyboard
-                    </a>
-                </h3>
-                <p class="mt-1 text-sm text-gray-500">Keyboard</p>
-                <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
-            </div>
-
-            <!-- Product Card 4 -->
-            <div class="group relative">
-                <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
-                    <img src="images/home-carousel/home-carousel-1.jpg" alt="Product Image"
-                        class="w-full h-full object-center object-cover">
-                </div>
-                <h3 class="mt-4 text-sm text-gray-700">
-                    <a href="#">
-                        <span class="absolute inset-0"></span>
-                        Mechanical Keyboard
-                    </a>
-                </h3>
-                <p class="mt-1 text-sm text-gray-500">Keyboard</p>
-                <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
-            </div>
-        </div>
-        <div class="mt-8 flex justify-center">
-            <a href="/catalog"
-                class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium text-white bg-black hover:bg-gray-800">
-                View Catalog
-            </a>
-        </div>
-
-        <hr class="mt-6 mb-6 border-gray-300">
-    </div>
 </div>
 
-<!-- Commission tab -->
+<!-- Portofolio section-->
 <div class="bg-white">
     <!-- Row 1 -->
     <div class="max-w-2xl mx-auto py-4 px-4 sm:py-24 sm:px-6 lg:max-w-7xl md:p-0 lg:px-8">
-        <h2 class="text-2xl font-bold text-gray-900 text-center">Our Portfolio</h2>
-
+      <div class="pt-10 pb-10 text-center ">
+        <h2 class="text-2xl font-bold text-gray-900 ">Our Portfolio</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, repellendus.</p>
+      </div>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div class="grid gap-4">
-                <div class=" hover:scale-115 hover:rotate-45 duration-1000">
+                <div class=" hover:scale-105 duration-1000">
                     <img class="h-auto max-w-full rounded-lg"
                         src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="">
                 </div>
-                <div>
+                <div class=" hover:scale-105 duration-1000">
                     <img class="h-auto max-w-full rounded-lg"
                         src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
                 </div>
-                <div>
+                <div class=" hover:scale-105 duration-1000">
                     <img class="h-auto max-w-full rounded-lg"
                         src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="">
                 </div>
             </div>
             <div class="grid gap-4">
-                <div>
+                <div class=" hover:scale-105 duration-1000">
                     <img class="h-auto max-w-full rounded-lg"
                         src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="">
                 </div>
-                <div>
+                <div class=" hover:scale-105 duration-1000">
                     <img class="h-auto max-w-full rounded-lg"
                         src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="">
                 </div>
-                <div>
+                <div class=" hover:scale-105 duration-1000">
                     <img class="h-auto max-w-full rounded-lg"
                         src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt="">
                 </div>
             </div>
             <div class="grid gap-4">
-                <div>
+                <div class=" hover:scale-105 duration-1000">
                     <img class="h-auto max-w-full rounded-lg"
                         src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt="">
                 </div>
-                <div>
+                <div class=" hover:scale-105 duration-1000">
                     <img class="h-auto max-w-full rounded-lg"
                         src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="">
                 </div>
-                <div>
+                <div class=" hover:scale-105 duration-1000">
                     <img class="h-auto max-w-full rounded-lg"
                         src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="">
                 </div>
             </div>
             <div class="grid gap-4">
-                <div>
+                <div class=" hover:scale-105 duration-1000">
                     <img class="h-auto max-w-full rounded-lg"
                         src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="">
                 </div>
-                <div>
+                <div class=" hover:scale-105 duration-1000">
                     <img class="h-auto max-w-full rounded-lg"
                         src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
                 </div>
-                <div>
+                <div class=" hover:scale-105 duration-1000">
                     <img class="h-auto max-w-full rounded-lg"
                         src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
                 </div>
