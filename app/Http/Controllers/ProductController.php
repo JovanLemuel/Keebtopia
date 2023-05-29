@@ -10,9 +10,17 @@ class ProductController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
-        //
+        if ($request->has('search')) {
+            return view('catalog', [
+                'products' => Product::where('name', 'like', '%' . $request->search . '%')->paginate(),
+            ]);
+        } else {
+            return view('catalog', [
+                'products' => Product::paginate(3),
+            ]);
+        }
     }
 
     /**
