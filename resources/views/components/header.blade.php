@@ -7,12 +7,9 @@
             </a>
         </div>
         <div class="flex md:order-2">
-
-            {{-- CART BUTTON --}}
             <a href="/" class="inline-block">
                 <img src="images/cart-black-1.svg" class="h-8" alt="Cart Button" />
             </a>
-
             <button data-collapse-toggle="navbar-cta" type="button"
                 class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                 aria-controls="navbar-cta" aria-expanded="false">
@@ -29,25 +26,23 @@
             <ul
                 class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                 <li>
-                    <a href="/home"
-                        class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
-                        aria-current="page">Home</a>
+                    <a href="/home" class="block py-2 pl-3 pr-4 rounded md:p-0 md:dark:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white {{ request()->is('home*') ? 'bg-blue-700 text-white md:bg-transparent md:text-blue-700' : 'text-gray-900' }}">Home</a>
                 </li>
                 <li>
                     <a href="/catalog"
-                        class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Catalog</a>
+                        class="block py-2 pl-3 pr-4 rounded md:p-0 md:dark:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white {{ request()->is('catalog*') ? 'bg-blue-700 text-white md:bg-transparent md:text-blue-700' : 'text-gray-900' }}">Catalog</a>
                 </li>
                 <li>
                     <a href="/commission"
-                        class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Commission</a>
+                        class="block py-2 pl-3 pr-4 rounded md:p-0 md:dark:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white {{ request()->is('commission*') ? 'bg-blue-700 text-white md:bg-transparent md:text-blue-700' : 'text-gray-900'}}">Commission</a>
                 </li>
                 <li>
-                    <a href="/contact"
-                        class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                    <a href="/contact" class="block py-2 pl-3 pr-4 rounded md:p-0 md:dark:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white {{ request()->is('contact*') ? 'bg-blue-700 text-white md:bg-transparent md:text-blue-700' : 'text-gray-900' }}">Contact</a>
                 </li>
+                
                 <li>
                     <a href="/shipping"
-                        class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Shipping</a>
+                        class="block py-2 pl-3 pr-4 rounded md:p-0 md:dark:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white {{ request()->is('shipping*') ? 'bg-blue-700 text-white md:bg-transparent md:text-blue-700' : 'text-gray-900'}}">Shipping</a>
                 </li>
             </ul>
         </div>

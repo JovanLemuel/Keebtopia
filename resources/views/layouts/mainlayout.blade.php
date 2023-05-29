@@ -14,7 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.2/dist/js/splide.min.js"></script>
 </head>
 
-<body class="bg-background">
+<body class="bg-0F1729">
     <header>
         @include('components.header')
     </header>
