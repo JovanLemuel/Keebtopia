@@ -10,9 +10,17 @@ class ProductController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
-        //
+        if ($request->has('search')) {
+            return view('catalog', [
+                'products' => Product::where('name', 'like', '%' . $request->search . '%')->paginate(),
+            ]);
+        } else {
+            return view('catalog', [
+                'products' => Product::paginate(3),
+            ]);
+        }
     }
 
     /**
@@ -31,7 +39,7 @@ class ProductController extends Controller
         $request->validate([
             'product_name' => 'required|string',
             'product_description' => 'required|string',
-            'product_category' => 'required|string',
+            'product_category' => 'required|in:keyboard,keycap,switch',
             'product_price' => 'required|integer',
             'product_stock' => 'required|integer',
         ]);

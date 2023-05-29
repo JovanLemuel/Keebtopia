@@ -10,6 +10,10 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-4xl mx-auto">
 
             <div>
+                <div class="my-4">
+                    <p class="text-lg font-semibold">Contact Information:</p>
+                </div>
+
                 <a href="tel:812 1601 6905" class="flex items-center my-2">
                     <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg">
@@ -46,7 +50,6 @@
                     </svg>
                     Universitas Ciputra, Surabaya, Indonesia
                 </a>
-
             </div>
 
             <div>
@@ -73,7 +76,7 @@
                             class="mt-2 w-full border-none text-sm p-4 bg-gray-100 text-gray-700"></textarea>
                     </div>
                     <button type="submit"
-                        class="inline-block bg-black hover:bg-amber-700 text-white uppercase text-sm tracking-widest font-heading px-8 py-4 mt-6">
+                        class="inline-block bg-black hover:bg-gray-700 text-white uppercase text-sm tracking-widest font-heading px-8 py-4 mt-6">
                         Send message
                     </button>
                 </form>
