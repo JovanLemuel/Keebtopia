@@ -83,7 +83,7 @@
                             class="w-full h-full object-center object-cover">
                     </div>
                     <h3 class="mt-4 text-sm text-gray-700">
-                        <a href="#">
+                        <a href="/detail">
                             <span class="absolute inset-0"></span>
                             Mechanical Keyboard
                         </a>

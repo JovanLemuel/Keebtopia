@@ -41,6 +41,9 @@ Route::get('/shipping', function () {
     return view('shipping');
 });
 
+Route::get('/detail', function () {
+    return view('detail');
+});
 Route::resource('contacts', ContactController::class);
 
 Route::resource('orders', OrderController::class);
