@@ -18,6 +18,11 @@ export default {
             padding: "16px",
           },
         extend: {
+            colors: {
+                primary: "#0F1729",
+                background: "#F9F7F7",
+                dark: "#0f172a",
+              },
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
