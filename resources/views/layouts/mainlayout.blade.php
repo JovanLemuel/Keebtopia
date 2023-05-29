@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Keebtopia | @yield('title')</title>
+    <link rel="icon" type="image/svg+xml" href="{{ asset('images/favicon.svg') }}">
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -48,7 +49,7 @@
 
                 </nav>
                 <div class="mt-8 flex justify-center space-x-6">
-                    <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <a href="https://www.facebook.com/profile.php?id=100093175867967" class="text-gray-400 hover:text-gray-500">
                         <span class="sr-only">Facebook</span>
                         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path fill-rule="evenodd"
