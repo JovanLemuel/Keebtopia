@@ -224,4 +224,147 @@
               <hr class="mt-6 mb-6 border-gray-300">
           </div>
       </div>
+
+      <!-- Commission tab -->
+    <div class="bg-white">
+        <!-- Row 1 -->
+        <div class="max-w-2xl mx-auto py-4 px-4 sm:py-24 sm:px-6 lg:max-w-7xl md:p-0 lg:px-8">
+            <h2 class="text-2xl font-bold text-gray-900">Our Portfolio</h2>
+          <div class="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-4 md:gap-y-0 lg:gap-x-8">
+
+            <!-- Product Card 1 -->
+            <div class="group relative">
+              <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
+                <img src="images/home-carousel/home-carousel-1.jpg" alt="Product Image" class="w-full h-full object-center object-cover">
+              </div>
+              <h3 class="mt-4 text-sm text-gray-700">
+                <a href="#">
+                  <span class="absolute inset-0"></span>
+                  Mechanical Keyboard
+                </a>
+              </h3>
+              <p class="mt-1 text-sm text-gray-500">Keyboard</p>
+              <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div class="group relative">
+              <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
+                <img src="images/home-carousel/home-carousel-1.jpg" alt="Product Image" class="w-full h-full object-center object-cover">
+              </div>
+              <h3 class="mt-4 text-sm text-gray-700">
+                <a href="#">
+                  <span class="absolute inset-0"></span>
+                  Mechanical Keyboard
+                </a>
+              </h3>
+              <p class="mt-1 text-sm text-gray-500">Keyboard</p>
+              <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
+            </div>
+
+            <!-- Product Card 3 -->
+            <div class="group relative">
+              <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
+                <img src="images/home-carousel/home-carousel-1.jpg" alt="Product Image" class="w-full h-full object-center object-cover">
+              </div>
+              <h3 class="mt-4 text-sm text-gray-700">
+                <a href="#">
+                  <span class="absolute inset-0"></span>
+                  Mechanical Keyboard
+                </a>
+              </h3>
+              <p class="mt-1 text-sm text-gray-500">Keyboard</p>
+              <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
+            </div>
+
+            <!-- Product Card 4 -->
+            <div class="group relative">
+              <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
+                <img src="images/home-carousel/home-carousel-1.jpg" alt="Product Image" class="w-full h-full object-center object-cover">
+              </div>
+              <h3 class="mt-4 text-sm text-gray-700">
+                <a href="#">
+                  <span class="absolute inset-0"></span>
+                  Mechanical Keyboard
+                </a>
+              </h3>
+              <p class="mt-1 text-sm text-gray-500">Keyboard</p>
+              <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="max-w-2xl mx-auto py-4 px-4 sm:py-24 sm:px-6 lg:max-w-7xl md:p-0 lg:px-8">
+            <div class="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-4 md:gap-y-0 lg:gap-x-8">
+
+              <!-- Product Card 1 -->
+              <div class="group relative">
+                <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
+                  <img src="images/home-carousel/home-carousel-1.jpg" alt="Product Image" class="w-full h-full object-center object-cover">
+                </div>
+                <h3 class="mt-4 text-sm text-gray-700">
+                  <a href="#">
+                    <span class="absolute inset-0"></span>
+                    Mechanical Keyboard
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">Keyboard</p>
+                <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
+              </div>
+
+              <!-- Product Card 2 -->
+              <div class="group relative">
+                <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
+                  <img src="images/home-carousel/home-carousel-1.jpg" alt="Product Image" class="w-full h-full object-center object-cover">
+                </div>
+                <h3 class="mt-4 text-sm text-gray-700">
+                  <a href="#">
+                    <span class="absolute inset-0"></span>
+                    Mechanical Keyboard
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">Keyboard</p>
+                <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
+              </div>
+
+              <!-- Product Card 3 -->
+              <div class="group relative">
+                <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
+                  <img src="images/home-carousel/home-carousel-1.jpg" alt="Product Image" class="w-full h-full object-center object-cover">
+                </div>
+                <h3 class="mt-4 text-sm text-gray-700">
+                  <a href="#">
+                    <span class="absolute inset-0"></span>
+                    Mechanical Keyboard
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">Keyboard</p>
+                <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
+              </div>
+
+              <!-- Product Card 4 -->
+              <div class="group relative">
+                <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
+                  <img src="images/home-carousel/home-carousel-1.jpg" alt="Product Image" class="w-full h-full object-center object-cover">
+                </div>
+                <h3 class="mt-4 text-sm text-gray-700">
+                  <a href="#">
+                    <span class="absolute inset-0"></span>
+                    Mechanical Keyboard
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">Keyboard</p>
+                <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
+              </div>
+            </div>
+            <div class="mt-8 flex justify-center">
+                <a href="/commission" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium text-white bg-black hover:bg-gray-800">
+                  Learn More
+                </a>
+              </div>
+
+              <hr class="mt-6 mb-6 border-gray-300">
+          </div>
+      </div>
 @endsection
