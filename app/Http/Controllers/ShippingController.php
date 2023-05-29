@@ -16,10 +16,10 @@ class ShippingController extends Controller
         $cities = $response['rajaongkir']['results'];
 
         // dd($cities);
-        return view('cek-ongkir',['cities'=>$cities, 'ongkir' => '']);
+        return view('shipping',['cities'=>$cities, 'ongkir' => '']);
     }
 
-    function cekOngkir(Request $request){
+    function checkShipping(Request $request){
         // dd($request->all());
         $response = Http::withHeaders([
             'key' => 'b11975225db04e43ea0bf865c52d11cc'
@@ -37,7 +37,7 @@ class ShippingController extends Controller
         // dd($request->all());
         $cities = $response['rajaongkir']['results'];
         $ongkir = $responseCost['rajaongkir'];
-        return view('cek-ongkir',['cities'=>$cities, 'ongkir' => $ongkir, 'data' => $request]);
+        return view('shipping',['cities'=>$cities, 'ongkir' => $ongkir, 'data' => $request]);
 
     }
 }

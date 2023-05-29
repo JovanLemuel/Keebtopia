@@ -5,6 +5,7 @@ use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ShippingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,9 +38,8 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/shipping', function () {
-    return view('shipping');
-});
+Route::get('/shipping', [ShippingController::class,'index']);
+Route::post('/shipping', [ShippingController::class,'checkShipping']);
 
 Route::get('/detail', function () {
     return view('detail');

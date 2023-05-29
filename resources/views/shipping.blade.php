@@ -21,7 +21,9 @@
                     <select id="origin" name="origin"
                         class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
                         <option value="">Pilih Kota Asal</option>
-                        <option value="">United States</option>
+                        @foreach ($cities as $item)
+                        <option value="{{ $item['city_id'] }}">{{ $item['city_name'] }}</option>
+                        @endforeach
                     </select>
                 </div>
 
@@ -31,7 +33,9 @@
                     <select id="destination" name="destination"
                         class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
                         <option value="">Pilih Kota Tujuan</option>
-                        <option value="">United States</option>
+                        @foreach ($cities as $item)
+                        <option value="{{ $item['city_id'] }}">{{ $item['city_name'] }}</option>
+                        @endforeach
                     </select>
                 </div>
                 {{-- berat --}}
@@ -68,22 +72,27 @@
 
     {{-- Cost Result --}}
     <div class="mt-5 md:w-1/2 mx-auto">
+        @if ($ongkir != null)
         <h1 class="text-xl font-bold text-center">Rincian Ongkos Kirim</h1>
 
         <div class="mt-3">
-            <p>Asal Tujuan : Jakarta</p>
-            <p>Kota Tujuan : Jakarta</p>
-            <p>Berat Paket : 2 Gram</p>
+            <p>Asal Tujuan : {{ $ongkir['origin_details']['city_name']}}</p>
+            <p>Kota Tujuan : {{ $ongkir['destination_details']['city_name']}}</p>
+            <p>Berat Paket : {{ $data->weight}} Gram</p>
+        </div>
+        @foreach ($ongkir['results'] as $item)
+        <div class="mt-3">
+            <p>Nama Kurir : {{ $item['name'] }}</p>
         </div>
 
         <div class="mt-3">
-            <p>Nama Kurir : Jalue Nugraha (JNE)</p>
+            @foreach ($item['costs'] as $data)
+            <p>Service : {{ $data['service'] }} (estimasi {{ $data['cost'][0]['etd'] }})</p>
+            <p>Harga : {{ $data['cost'][0]['value'] }}</p>
+            @endforeach
         </div>
-
-        <div class="mt-3">
-            <p>Service : </p>
-            <p>Harga : </p>
-        </div>
+        @endforeach     
+        @endif
     </div>
 </div>
 @endsection
