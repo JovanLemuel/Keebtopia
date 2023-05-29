@@ -19,7 +19,7 @@
                 <div class="mt-5">
                     <label for="origin" class="block text-sm font-medium text-gray-700">Asal Kota</label>
                     <select id="origin" name="origin"
-                        class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+                        class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md" required>
                         <option value="">Pilih Kota Asal</option>
                         @foreach ($cities as $item)
                         <option value="{{ $item['city_id'] }}">{{ $item['city_name'] }}</option>
@@ -31,7 +31,7 @@
                 <div class="mt-5">
                     <label for="destination" class="block text-sm font-medium text-gray-700">Kota Tujuan</label>
                     <select id="destination" name="destination"
-                        class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+                        class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md" required>
                         <option value="">Pilih Kota Tujuan</option>
                         @foreach ($cities as $item)
                         <option value="{{ $item['city_id'] }}">{{ $item['city_name'] }}</option>
@@ -44,7 +44,7 @@
                     <div class="mt-1">
                         <input type="text" name="weight" id="weight"
                             class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md"
-                            placeholder="1000">
+                            placeholder="1000" required>
                     </div>
                 </div>
 
@@ -52,7 +52,7 @@
                 <div class="mt-5">
                     <label for="courier" class="block text-sm font-medium text-gray-700">Kurir</label>
                     <select id="courier" name="courier"
-                        class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+                        class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md" required>
                         <option value="">Pilih Kurir</option>
                         <option value="jne">JNE</option>
                         <option value="pos">POS</option>
@@ -61,7 +61,7 @@
                 </div>
 
                 {{-- button --}}
-                <div class="mt-5">
+                <div class="mt-5 text-center">
                     <button type="submit"
                         class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-500">Check
                         Shipping Cost</button>
