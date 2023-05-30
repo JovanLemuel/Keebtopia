@@ -76,11 +76,8 @@
 <!-- Description Text -->
 <div class="container mx-auto py-16">
     <div class="max-w-3xl mx-auto text-center">
-        <h2 class="text-2xl font-extrabold mb-4 font-poppins">Welcome to Our Website</h2>
-        <p class="text-lg text-justify text-gray-600 font-normal font-poppins">Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Nulla ullamcorper, mi
-            non congue malesuada, felis ipsum pulvinar mauris, vitae tristique lectus elit a nulla. Nulla facilisi.
-            Suspendisse potenti.</p>
+        <h2 class="text-2xl font-extrabold mb-4 font-poppins">Welcome to Keebtopia</h2>
+        <p class="text-lg text-justify text-gray-600 font-normal font-poppins"> We are the perfect place to fulfill your custom keyboard commission needs. We prioritize quality and customer satisfaction in every step of the keyboard customization process.</p>
     </div>
 </div>
 
@@ -176,70 +173,69 @@
 <!-- Portofolio section-->
 <div>
     <!-- Row 1 -->
-    <div class="max-w-2xl mx-auto py-4 px-4 sm:py-24 sm:px-6 lg:max-w-7xl md:p-0 lg:px-8">
-        <div class="pt-10 pb-10 text-center font-poppins">
-            <h2 class="text-2xl text-gray-900 font-extrabold">Our Portfolio</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, repellendus.</p>
+    <div class="max-w-2xl mx-auto pb-4 px-4 sm:py-24 sm:px-6 lg:max-w-7xl md:p-0 lg:px-8">
+        <div class="pt-10 pb-10 text-center ">
+            <h2 class="text-2xl font-bold text-gray-900 ">Our Portfolio</h2>
+            <p>See a list of some of our previous works.</p>
         </div>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div class="grid gap-4">
                 <div class=" hover:scale-105 duration-1000">
                     <img class="h-auto max-w-full rounded-lg"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="">
+                        src="{{ asset('images/portfolio/portfolio-0.svg') }}" alt="Portfolio Image 0">
                 </div>
                 <div class=" hover:scale-105 duration-1000">
                     <img class="h-auto max-w-full rounded-lg"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
+                        src="{{ asset('images/portfolio/portfolio-1.svg') }}" alt="Portfolio Image 1">
                 </div>
                 <div class=" hover:scale-105 duration-1000">
                     <img class="h-auto max-w-full rounded-lg"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="">
-                </div>
-            </div>
-            <div class="grid gap-4">
-                <div class=" hover:scale-105 duration-1000">
-                    <img class="h-auto max-w-full rounded-lg"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="">
-                </div>
-                <div class=" hover:scale-105 duration-1000">
-                    <img class="h-auto max-w-full rounded-lg"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="">
-                </div>
-                <div class=" hover:scale-105 duration-1000">
-                    <img class="h-auto max-w-full rounded-lg"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt="">
+                        src="{{ asset('images/portfolio/portfolio-2.svg') }}" alt="Portfolio Image 2">
                 </div>
             </div>
             <div class="grid gap-4">
                 <div class=" hover:scale-105 duration-1000">
                     <img class="h-auto max-w-full rounded-lg"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt="">
+                        src="{{ asset('images/portfolio/portfolio-3.svg') }}" alt="Portfolio Image 3">
                 </div>
                 <div class=" hover:scale-105 duration-1000">
                     <img class="h-auto max-w-full rounded-lg"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="">
+                        src="{{ asset('images/portfolio/portfolio-4.svg') }}" alt="Portfolio Image 4">
                 </div>
                 <div class=" hover:scale-105 duration-1000">
                     <img class="h-auto max-w-full rounded-lg"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="">
+                        src="{{ asset('images/portfolio/portfolio-5.svg') }}" alt="Portfolio Image 5">
                 </div>
             </div>
             <div class="grid gap-4">
                 <div class=" hover:scale-105 duration-1000">
                     <img class="h-auto max-w-full rounded-lg"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="">
+                        src="{{ asset('images/portfolio/portfolio-6.svg') }}" alt="Portfolio Image 6">
                 </div>
                 <div class=" hover:scale-105 duration-1000">
                     <img class="h-auto max-w-full rounded-lg"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
+                        src="{{ asset('images/portfolio/portfolio-7.svg') }}" alt="Portfolio Image 7">
                 </div>
                 <div class=" hover:scale-105 duration-1000">
                     <img class="h-auto max-w-full rounded-lg"
-                        src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
+                        src="{{ asset('images/portfolio/portfolio-8.svg') }}" alt="Portfolio Image 8">
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div class=" hover:scale-105 duration-1000">
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="{{ asset('images/portfolio/portfolio-9.svg') }}" alt="Portfolio Image 9">
+                </div>
+                <div class=" hover:scale-105 duration-1000">
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="{{ asset('images/portfolio/portfolio-10.svg') }}" alt="Portfolio Image 10">
+                </div>
+                <div class=" hover:scale-105 duration-1000">
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="{{ asset('images/portfolio/portfolio-11.svg') }}" alt="Portfolio Image 11">
                 </div>
             </div>
         </div>
-
     </div>
 </div>
 @endsection

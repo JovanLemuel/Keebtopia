@@ -2,8 +2,8 @@
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <div class="flex flex-col justify-center text-center">
             <a href="/home">
-                <img src="images/logo-black.svg" class="h-8" alt="KeebTopia Logo" />
-                <p class="self-center font-semibold whitespace-nowrap dark:text-white text-sm">KeebTopia</p>
+                <img src="images/logo-black.svg" class="h-8" alt="Keebtopia Logo" />
+                <p class="self-center font-semibold whitespace-nowrap dark:text-white text-sm">Keebtopia</p>
             </a>
         </div>
         <div class="flex md:order-2">

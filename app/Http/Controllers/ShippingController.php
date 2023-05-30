@@ -9,14 +9,21 @@ class ShippingController extends Controller
 {
     //
     function index(){
-        $response = Http::withHeaders([
-            'key' => 'b11975225db04e43ea0bf865c52d11cc'
-        ])->get('https://api.rajaongkir.com/starter/city');
-
-        $cities = $response['rajaongkir']['results'];
-
-        // dd($cities);
-        return view('shipping',['cities'=>$cities, 'ongkir' => '']);
+        try {
+            $response = Http::withHeaders([
+                'key' => 'b11975225db04e43ea0bf865c52d11cc'
+            ])->get('https://api.rajaongkir.com/starter/city');
+        
+            $cities = $response['rajaongkir']['results'];
+        
+            // dd($cities);
+            return view('shipping', ['cities' => $cities, 'ongkir' => '']);
+        } catch (\Exception $e) {
+            // Handle cURL errors
+            // Retry after a certain amount of time
+            sleep(5); // Wait for 5 seconds before retrying
+            // Perform retry logic here
+        } 
     }
 
     function checkShipping(Request $request){
