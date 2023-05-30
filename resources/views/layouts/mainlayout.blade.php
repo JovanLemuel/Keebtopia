@@ -13,7 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.2/dist/js/splide.min.js"></script>
 </head>
-<body class="bg-background">
+<body class="bg-beige2">
     <header>
         @include('components.header')
     </header>
@@ -23,7 +23,7 @@
 
     {{-- footer --}}
     <section class="mt-16 ">
-        <footer class="bg-white">
+        <footer class="bg-beige">
             <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
                 <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
                     <div class="px-5 py-2">
@@ -48,7 +48,7 @@
 
                 </nav>
                 <div class="mt-8 flex justify-center space-x-6">
-                    <a href="https://www.facebook.com/profile.php?id=100093175867967" class="text-gray-400 hover:text-gray-500">
+                    <a href="https://www.facebook.com/profile.php?id=100093175867967" target="_blank" class="text-gray-400 hover:text-gray-500">
                         <span class="sr-only">Facebook</span>
                         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path fill-rule="evenodd"
@@ -57,7 +57,7 @@
                         </svg>
                     </a>
 
-                    <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <a href="https://www.instagram.com/keebtopia/" target="_blank" class="text-gray-400 hover:text-gray-500">
                         <span class="sr-only">Instagram</span>
                         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path fill-rule="evenodd"

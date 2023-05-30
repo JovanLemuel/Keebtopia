@@ -22,6 +22,9 @@ export default {
                 primary: "#0F1729",
                 background: "#F9F7F7",
                 dark: "#0f172a",
+                beige: "#E6E6D9",
+                beige2: "#C1C1AB",
+                beige3: "#A0A080",
               },
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
