@@ -69,83 +69,73 @@
             </div>
         </form>
 
-
     </div>
     {{-- CARD --}}
     <div class="bg-beige2">
         <div class="max-w-2xl mx-auto py-4 px-4 sm:py-24 sm:px-6 lg:max-w-7xl md:p-0 lg:px-8">
             <div class="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-4 md:gap-y-0 lg:gap-x-8">
                 <div class="group relative">
-                    <div
-                        class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
-                        <img src="images/home-carousel/home-carousel-1.jpg"
-                            alt="Hand stitched, orange leather long wallet."
-                            class="w-full h-full object-center object-cover">
+                    <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
+                        <img src="{{ asset('images/catalog/ws-quartz.svg') }}"
+                            alt="WS Quartz"
+                            class="w-full h-full object-center object-cover transition duration-300 image-default">
                     </div>
                     <h3 class="mt-4 text-sm text-gray-700">
                         <a href="/detail">
                             <span class="absolute inset-0"></span>
-                            Mechanical Keyboard
+                            WS Quartz
                         </a>
                     </h3>
-                    <p class="mt-1 text-sm text-gray-500">Keyboard</p>
-                    <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
+                    <p class="mt-1 text-sm text-gray-500">Switch</p>
+                    <p class="mt-1 text-sm font-medium text-gray-900">Rp 5.800</p>
                 </div>
                 <div class="group relative">
-                    <div
-                        class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
-                        <img src="images/home-carousel/home-carousel-1.jpg"
-                            alt="Hand stitched, orange leather long wallet."
-                            class="w-full h-full object-center object-cover">
+                    <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
+                        <img src="{{ asset('images/catalog/ws-silent-linear.svg') }}"
+                            alt="WS Silent Linear"
+                            class="w-full h-full object-center object-cover transition duration-300 image-default">
                     </div>
                     <h3 class="mt-4 text-sm text-gray-700">
-                        <a href="#">
+                        <a href="/detail">
                             <span class="absolute inset-0"></span>
-                            Mechanical Keyboard
+                            WS Silent Linear
                         </a>
                     </h3>
-                    <p class="mt-1 text-sm text-gray-500">Keyboard</p>
-                    <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
+                    <p class="mt-1 text-sm text-gray-500">Switch</p>
+                    <p class="mt-1 text-sm font-medium text-gray-900">Rp 6.300</p>
                 </div>
                 <div class="group relative">
-                    <div
-                        class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
-                        <img src="images/home-carousel/home-carousel-1.jpg"
-                            alt="Hand stitched, orange leather long wallet."
-                            class="w-full h-full object-center object-cover">
+                    <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
+                        <img src="{{ asset('images/catalog/ws-silent-tactile.svg') }}"
+                            alt="WS Silent Tactile"
+                            class="w-full h-full object-center object-cover transition duration-300 image-default">
                     </div>
                     <h3 class="mt-4 text-sm text-gray-700">
-                        <a href="#">
+                        <a href="/detail">
                             <span class="absolute inset-0"></span>
-                            Mechanical Keyboard
+                            WS Silent Tactile
                         </a>
                     </h3>
-                    <p class="mt-1 text-sm text-gray-500">Keyboard</p>
-                    <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
+                    <p class="mt-1 text-sm text-gray-500">Switch</p>
+                    <p class="mt-1 text-sm font-medium text-gray-900">Rp 6.300</p>
                 </div>
                 <div class="group relative">
-                    <div
-                        class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
-                        <img src="images/home-carousel/home-carousel-1.jpg"
-                            alt="Hand stitched, orange leather long wallet."
-                            class="w-full h-full object-center object-cover">
+                    <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
+                        <img src="{{ asset('images/catalog/ws-heavy-tactile.svg') }}"
+                            alt="WS Heavy Tactile"
+                            class="w-full h-full object-center object-cover transition duration-300 image-default">
                     </div>
                     <h3 class="mt-4 text-sm text-gray-700">
-                        <a href="#">
+                        <a href="/detail">
                             <span class="absolute inset-0"></span>
-                            Mechanical Keyboard
+                            WS Heavy Tactile
                         </a>
                     </h3>
-                    <p class="mt-1 text-sm text-gray-500">Keyboard</p>
-                    <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
+                    <p class="mt-1 text-sm text-gray-500">Switch</p>
+                    <p class="mt-1 text-sm font-medium text-gray-900">Rp 5.200</p>
                 </div>
-
-
-
                 <!-- More products... -->
             </div>
-
-
         </div>
     </div>
 
@@ -153,83 +143,69 @@
         <div class="max-w-2xl mx-auto py-4 px-4 sm:py-24 sm:px-6 lg:max-w-7xl md:p-0 lg:px-8">
             <div class="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-4 md:gap-y-0 lg:gap-x-8">
                 <div class="group relative">
-                    <div
-                        class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
-                        <img src="images/home-carousel/home-carousel-1.jpg"
-                            alt="Hand stitched, orange leather long wallet."
-                            class="w-full h-full object-center object-cover">
+                    <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
+                        <img src="{{ asset('images/catalog/gmk-wasabi-v2.svg') }}"
+                            alt="GMK Wasabi V2"
+                            class="w-full h-full object-center object-cover transition duration-300 image-default">
                     </div>
                     <h3 class="mt-4 text-sm text-gray-700">
                         <a href="/detail">
                             <span class="absolute inset-0"></span>
-                            Mechanical Keyboard
+                            GMK Wasabi V2
                         </a>
                     </h3>
-                    <p class="mt-1 text-sm text-gray-500">Keyboard</p>
-                    <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
+                    <p class="mt-1 text-sm text-gray-500">Keycaps</p>
+                    <p class="mt-1 text-sm font-medium text-gray-900">Rp 2.040.000</p>
                 </div>
                 <div class="group relative">
-                    <div
-                        class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
-                        <img src="images/home-carousel/home-carousel-1.jpg"
-                            alt="Hand stitched, orange leather long wallet."
-                            class="w-full h-full object-center object-cover">
+                    <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
+                        <img src="{{ asset('images/catalog/gmk-fuji.svg') }}"
+                            alt="GMK Fuji"
+                            class="w-full h-full object-center object-cover transition duration-300 image-default">
                     </div>
                     <h3 class="mt-4 text-sm text-gray-700">
-                        <a href="#">
+                        <a href="/detail">
                             <span class="absolute inset-0"></span>
-                            Mechanical Keyboard
+                            GMK Fuji
                         </a>
                     </h3>
-                    <p class="mt-1 text-sm text-gray-500">Keyboard</p>
-                    <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
+                    <p class="mt-1 text-sm text-gray-500">Keycaps</p>
+                    <p class="mt-1 text-sm font-medium text-gray-900">Rp 2.100.000</p>
                 </div>
                 <div class="group relative">
-                    <div
-                        class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
-                        <img src="images/home-carousel/home-carousel-1.jpg"
-                            alt="Hand stitched, orange leather long wallet."
-                            class="w-full h-full object-center object-cover">
+                    <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
+                        <img src="{{ asset('images/catalog/gmk-handarbeit.svg') }}"
+                            alt="GMK Handarbeit"
+                            class="w-full h-full object-center object-cover transition duration-300 image-default">
                     </div>
                     <h3 class="mt-4 text-sm text-gray-700">
-                        <a href="#">
+                        <a href="/detail">
                             <span class="absolute inset-0"></span>
-                            Mechanical Keyboard
+                            GMK Handarbeit
                         </a>
                     </h3>
-                    <p class="mt-1 text-sm text-gray-500">Keyboard</p>
-                    <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
+                    <p class="mt-1 text-sm text-gray-500">Keycaps</p>
+                    <p class="mt-1 text-sm font-medium text-gray-900">Rp 2.410.000</p>
                 </div>
                 <div class="group relative">
-                    <div
-                        class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
-                        <img src="images/home-carousel/home-carousel-1.jpg"
-                            alt="Hand stitched, orange leather long wallet."
-                            class="w-full h-full object-center object-cover">
+                    <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
+                        <img src="{{ asset('images/catalog/epbt-aesthetic.svg') }}"
+                            alt="ePBT Aesthetic"
+                            class="w-full h-full object-center object-cover transition duration-300 image-default">
                     </div>
                     <h3 class="mt-4 text-sm text-gray-700">
-                        <a href="#">
+                        <a href="/detail">
                             <span class="absolute inset-0"></span>
-                            Mechanical Keyboard
+                            ePBT Aesthetic
                         </a>
                     </h3>
-                    <p class="mt-1 text-sm text-gray-500">Keyboard</p>
-                    <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
+                    <p class="mt-1 text-sm text-gray-500">Keycaps</p>
+                    <p class="mt-1 text-sm font-medium text-gray-900">Rp 1.320.000</p>
                 </div>
-
-
-
                 <!-- More products... -->
             </div>
-
-
         </div>
     </div>
-
-
-
 </div>
-
-
 
 @endsection

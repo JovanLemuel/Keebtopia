@@ -18,16 +18,40 @@
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 3px;
-    bottom: -31px; /* Adjust this value to move the underline position */
+    height: 2px;
+    bottom: -30px; /* Adjust this value to move the underline position */
     left: 0;
     background-color: #030712;
-    transform-origin: bottom right;
+    transform-origin: bottom left;
     transition: transform 0.25s ease-out;
   }
 
   .hover-underline-animation.active-page:after,
   .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .hover-underline-animation-normal {
+    display: inline-block;
+    position: relative;
+    color: #030712;
+  }
+
+  .hover-underline-animation-normal:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: -3px; /* Adjust this value to move the underline position */
+    left: 0;
+    background-color: #030712;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+  }
+
+  .hover-underline-animation-normal:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
