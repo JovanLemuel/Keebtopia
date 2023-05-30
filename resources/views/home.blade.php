@@ -76,7 +76,7 @@
 <!-- Description Text -->
 <div class="container mx-auto py-16">
     <div class="max-w-3xl mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-4">Welcome to Our Website</h2>
+        <h2 class="text-3xl font-bold mb-4 font-poppins">Welcome to Our Website</h2>
         <p class="text-lg text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper, mi
             non congue malesuada, felis ipsum pulvinar mauris, vitae tristique lectus elit a nulla. Nulla facilisi.
             Suspendisse potenti.</p>
