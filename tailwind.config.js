@@ -18,10 +18,6 @@ export default {
             padding: "16px",
           },
         extend: {
-            fontFamily: {
-                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
-                poppins: ['Poppins'],
-            },
             colors: {
                 primary: "#0F1729",
                 background: "#F9F7F7",
@@ -32,6 +28,7 @@ export default {
               },
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                poppins: ['Poppins', ...defaultTheme.fontFamily.sans],
             },
         },
     },
