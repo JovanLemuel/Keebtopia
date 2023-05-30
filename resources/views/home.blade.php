@@ -9,27 +9,27 @@
     <div class="relative h-56 overflow-hidden md:h-[500px]">
         <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="images/home-carousel/home-carousel-1.jpg" alt="Home Carousel 1"
+            <img src="images/home-carousel/carousel-1.svg" alt="Home Carousel 1"
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 2 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="images/home-carousel/home-carousel-2.jpg" alt="Home Carousel 2"
+            <img src="images/home-carousel/carousel-2.svg" alt="Home Carousel 2"
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 3 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="images/home-carousel/home-carousel-3.jpg" alt="Home Carousel 3"
+            <img src="images/home-carousel/carousel-3.svg" alt="Home Carousel 3"
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 4 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="images/home-carousel/home-carousel-4.jpg" alt="Home Carousel 4"
+            <img src="images/home-carousel/carousel-4.svg" alt="Home Carousel 4"
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 5 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="images/home-carousel/home-carousel-5.jpg" alt="Home Carousel 5"
+            <img src="images/home-carousel/carousel-5.svg" alt="Home Carousel 5"
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
     </div>
