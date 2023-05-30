@@ -6,94 +6,98 @@
         <h1 class="font-display font-bold text-5xl mb-6">Commission</h1>
     </div>
 
-    <div class="container mx-auto px-6 mb-24">
+    <div class="container mx-auto px-6 mb-12">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-4xl mx-auto">
-
             <div>
                 <div class="my-4">
-                    <p class="text-lg font-semibold">Contact Information:</p>
+                    <p class="text-lg font-semibold">What we offer</p>
                 </div>
 
-                <a href="tel:812 1601 6905" class="flex items-center my-2">
-                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
-                            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
-                        </path>
-                    </svg>
-                    +62 812-1601-6905
-                </a>
-                <a href="mailto:keebtopia@gmail.com" class="flex items-center my-2">
-                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
-                            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
-                        </path>
-                    </svg>
-                    keebtopia@gmail.com
-                </a>
-                <div class="flex items-center my-2">
-                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
-                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                    </svg>
-                    monday-friday, 9-5
-                </div>
-                <a href="https://goo.gl/maps/dH1jgFj3uPgjZLhK8" target="_blank" class="flex items-center my-2">
-                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
-                            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
-                            d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                    </svg>
-                    Universitas Ciputra, Surabaya, Indonesia
-                </a>
+                <p>1. Solder & desolder services<br>
+                    2. Keyboard assembly<br>
+                    3. Keyboard modifications <i>(tempest mod, foam mod, etc)</i><br>
+                    4. Switch modifications <i>(lubing, film, force break)</i><br>
+                    5. Stabilizer modifications <i>(lubing, tuning, holee mod)</i><br>
+                </p>
             </div>
 
             <div>
                 <div class="my-4">
-                    <p class="text-lg font-semibold">Contact Information:</p>
+                    <p class="text-lg font-semibold">Pricing</p>
                 </div>
 
-                <a href="tel:812 1601 6905" class="flex items-center my-2">
-                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
-                            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
-                        </path>
-                    </svg>
-                    +62 812-1601-6905
-                </a>
-                <a href="mailto:keebtopia@gmail.com" class="flex items-center my-2">
-                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
-                            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
-                        </path>
-                    </svg>
-                    keebtopia@gmail.com
-                </a>
-                <div class="flex items-center my-2">
-                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
-                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                    </svg>
-                    monday-friday, 9-5
-                </div>
-                <a href="https://goo.gl/maps/dH1jgFj3uPgjZLhK8" target="_blank" class="flex items-center my-2">
-                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
-                            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
-                            d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                    </svg>
-                    Universitas Ciputra, Surabaya, Indonesia
-                </a>
+                <p>Our pricing is not fixed and will change according to what the work entails. For more information on our pricing and to get a quote, please contact us.
+                </p>
             </div>
         </div>
     </div>
+
+    <!-- Portofolio section-->
+<div>
+    <!-- Row 1 -->
+    <div class="max-w-2xl mx-auto pb-4 px-4 sm:py-24 sm:px-6 lg:max-w-7xl md:p-0 lg:px-8">
+        <div class="pt-10 pb-10 text-center ">
+            <h2 class="text-2xl font-bold text-gray-900 ">Our Portfolio</h2>
+            <p>See a list of some of our previous works.</p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="grid gap-4">
+                <div class=" hover:scale-105 duration-1000">
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="{{ asset('images/portfolio/portfolio-0.svg') }}" alt="Portfolio Image 0">
+                </div>
+                <div class=" hover:scale-105 duration-1000">
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="{{ asset('images/portfolio/portfolio-1.svg') }}" alt="Portfolio Image 1">
+                </div>
+                <div class=" hover:scale-105 duration-1000">
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="{{ asset('images/portfolio/portfolio-2.svg') }}" alt="Portfolio Image 2">
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div class=" hover:scale-105 duration-1000">
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="{{ asset('images/portfolio/portfolio-3.svg') }}" alt="Portfolio Image 3">
+                </div>
+                <div class=" hover:scale-105 duration-1000">
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="{{ asset('images/portfolio/portfolio-4.svg') }}" alt="Portfolio Image 4">
+                </div>
+                <div class=" hover:scale-105 duration-1000">
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="{{ asset('images/portfolio/portfolio-5.svg') }}" alt="Portfolio Image 5">
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div class=" hover:scale-105 duration-1000">
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="{{ asset('images/portfolio/portfolio-6.svg') }}" alt="Portfolio Image 6">
+                </div>
+                <div class=" hover:scale-105 duration-1000">
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="{{ asset('images/portfolio/portfolio-7.svg') }}" alt="Portfolio Image 7">
+                </div>
+                <div class=" hover:scale-105 duration-1000">
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="{{ asset('images/portfolio/portfolio-8.svg') }}" alt="Portfolio Image 8">
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div class=" hover:scale-105 duration-1000">
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="{{ asset('images/portfolio/portfolio-9.svg') }}" alt="Portfolio Image 9">
+                </div>
+                <div class=" hover:scale-105 duration-1000">
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="{{ asset('images/portfolio/portfolio-10.svg') }}" alt="Portfolio Image 10">
+                </div>
+                <div class=" hover:scale-105 duration-1000">
+                    <img class="h-auto max-w-full rounded-lg"
+                        src="{{ asset('images/portfolio/portfolio-11.svg') }}" alt="Portfolio Image 11">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 @endsection
