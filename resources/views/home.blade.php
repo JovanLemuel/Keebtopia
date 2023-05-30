@@ -6,7 +6,7 @@
 <!-- Carousel -->
 <div id="default-carousel" class="relative w-full" data-carousel="slide">
     <!-- Carousel wrapper -->
-    <div class="relative h-56 overflow-hidden md:h-96">
+    <div class="relative h-56 overflow-hidden md:h-[500px]">
         <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <img src="images/home-carousel/home-carousel-1.jpg" alt="Home Carousel 1"
@@ -76,7 +76,7 @@
 <!-- Description Text -->
 <div class="container mx-auto py-16">
     <div class="max-w-3xl mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-4">Welcome to Our Website</h2>
+        <h2 class="text-3xl font-bold mb-4 font-poppins">Welcome to Our Website</h2>
         <p class="text-lg text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper, mi
             non congue malesuada, felis ipsum pulvinar mauris, vitae tristique lectus elit a nulla. Nulla facilisi.
             Suspendisse potenti.</p>
@@ -84,12 +84,17 @@
 </div>
 
 <!-- Product tab -->
-<div class="bg-white">
+<div class="bg-beige3 md:p-10">
     <!-- Row 1 -->
     <div class="max-w-2xl mx-auto py-4 px-4 sm:py-24 sm:px-6 lg:max-w-7xl md:p-0 lg:px-8">
-        <hr class="mb-6 border-gray-300">
-        <h2 class="text-2xl font-bold text-gray-900">Latest Products</h2>
-        <div class="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-4 md:gap-y-0 lg:gap-x-8">
+        <div class="flex justify-between items-center">
+            <h2 class="text-2xl font-bold text-gray-900">Latest Products</h2>
+            <div class="">
+                <a href="/catalog" class="text-base text-gray-700 hover:text-gray-900"> See More > </a>
+            </div>
+        </div>
+        {{-- button --}}
+        <div class="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-3 xl:grid-cols-4 md:gap-y-0 lg:gap-x-8">
 
             <!-- Product Card 1 -->
             <div class="group relative">
@@ -159,13 +164,13 @@
 </div>
 
 <!-- Portofolio section-->
-<div class="bg-white">
+<div>
     <!-- Row 1 -->
     <div class="max-w-2xl mx-auto py-4 px-4 sm:py-24 sm:px-6 lg:max-w-7xl md:p-0 lg:px-8">
-      <div class="pt-10 pb-10 text-center ">
-        <h2 class="text-2xl font-bold text-gray-900 ">Our Portfolio</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, repellendus.</p>
-      </div>
+        <div class="pt-10 pb-10 text-center ">
+            <h2 class="text-2xl font-bold text-gray-900 ">Our Portfolio</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, repellendus.</p>
+        </div>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div class="grid gap-4">
                 <div class=" hover:scale-105 duration-1000">
