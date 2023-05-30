@@ -76,8 +76,8 @@
 <!-- Description Text -->
 <div class="container mx-auto py-16">
     <div class="max-w-3xl mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-4 font-poppins">Welcome to Our Website</h2>
-        <p class="text-lg text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper, mi
+        <h2 class="text-2xl font-extrabold mb-4 font-poppins">Welcome to Our Website</h2>
+        <p class="text-lg text-justify text-gray-600 font-normal font-poppins">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper, mi
             non congue malesuada, felis ipsum pulvinar mauris, vitae tristique lectus elit a nulla. Nulla facilisi.
             Suspendisse potenti.</p>
     </div>
@@ -90,7 +90,7 @@
         <div class="flex justify-between items-center">
             <h2 class="text-2xl font-bold text-gray-900">Latest Products</h2>
             <div class="">
-                <a href="/catalog" class="text-base text-gray-700 hover:text-gray-900"> See More > </a>
+                <a href="/catalog" class="text-base text-gray-700 hover:text-gray-900 font-poppins md:text-base md:font-normal"> See More > </a>
             </div>
         </div>
         {{-- button --}}
@@ -102,63 +102,59 @@
                     <img src="images/home-carousel/home-carousel-1.jpg" alt="Product Image"
                         class="w-full h-full object-center object-cover">
                 </div>
-                <h3 class="mt-4 text-sm text-gray-700">
+                <h3 class="mt-4 text-sm font-semibold font-poppins text-slate-950 md:text-base">
                     <a href="#">
                         <span class="absolute inset-0"></span>
                         Mechanical Keyboard
                     </a>
                 </h3>
-                <p class="mt-1 text-sm text-gray-500">Keyboard</p>
-                <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
+                <p class="mt-1 font-poppins text-sm text-slate-800 md:text-sm">Keyboard</p>
+                <p class="mt-1 font-poppins font-medium text-sm text-slate-900 md:text-lg">Rp.1.999.000</p>
             </div>
 
-            <!-- Product Card 2 -->
             <div class="group relative">
                 <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
                     <img src="images/home-carousel/home-carousel-1.jpg" alt="Product Image"
                         class="w-full h-full object-center object-cover">
                 </div>
-                <h3 class="mt-4 text-sm text-gray-700">
+                <h3 class="mt-4 text-sm font-semibold font-poppins text-slate-950 md:text-base">
                     <a href="#">
                         <span class="absolute inset-0"></span>
                         Mechanical Keyboard
                     </a>
                 </h3>
-                <p class="mt-1 text-sm text-gray-500">Keyboard</p>
-                <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
+                <p class="mt-1 font-poppins text-sm text-slate-800 md:text-sm">Keyboard</p>
+                <p class="mt-1 font-poppins font-medium text-sm text-slate-900 md:text-lg">Rp.1.999.000</p>
             </div>
-
-            <!-- Product Card 3 -->
             <div class="group relative">
                 <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
                     <img src="images/home-carousel/home-carousel-1.jpg" alt="Product Image"
                         class="w-full h-full object-center object-cover">
                 </div>
-                <h3 class="mt-4 text-sm text-gray-700">
+                <h3 class="mt-4 text-sm font-semibold font-poppins text-slate-950 md:text-base">
                     <a href="#">
                         <span class="absolute inset-0"></span>
                         Mechanical Keyboard
                     </a>
                 </h3>
-                <p class="mt-1 text-sm text-gray-500">Keyboard</p>
-                <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
+                <p class="mt-1 font-poppins text-sm text-slate-800 md:text-sm">Keyboard</p>
+                <p class="mt-1 font-poppins font-medium text-sm text-slate-900 md:text-lg">Rp.1.999.000</p>
             </div>
-
-            <!-- Product Card 4 -->
             <div class="group relative">
                 <div class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
                     <img src="images/home-carousel/home-carousel-1.jpg" alt="Product Image"
                         class="w-full h-full object-center object-cover">
                 </div>
-                <h3 class="mt-4 text-sm text-gray-700">
+                <h3 class="mt-4 text-sm font-semibold font-poppins text-slate-950 md:text-base">
                     <a href="#">
                         <span class="absolute inset-0"></span>
                         Mechanical Keyboard
                     </a>
                 </h3>
-                <p class="mt-1 text-sm text-gray-500">Keyboard</p>
-                <p class="mt-1 text-sm font-medium text-gray-900">Rp.1.999.000</p>
+                <p class="mt-1 font-poppins text-sm text-slate-800 md:text-sm">Keyboard</p>
+                <p class="mt-1 font-poppins font-medium text-sm text-slate-900 md:text-lg">Rp.1.999.000</p>
             </div>
+
         </div>
     </div>
 </div>
@@ -167,8 +163,8 @@
 <div>
     <!-- Row 1 -->
     <div class="max-w-2xl mx-auto py-4 px-4 sm:py-24 sm:px-6 lg:max-w-7xl md:p-0 lg:px-8">
-        <div class="pt-10 pb-10 text-center ">
-            <h2 class="text-2xl font-bold text-gray-900 ">Our Portfolio</h2>
+        <div class="pt-10 pb-10 text-center font-poppins">
+            <h2 class="text-2xl text-gray-900 font-extrabold">Our Portfolio</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, repellendus.</p>
         </div>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
